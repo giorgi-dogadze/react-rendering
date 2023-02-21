@@ -13,4 +13,4 @@ function B_Component() {
   );
 }
 
-export default B_Component;
+export default React.memo(B_Component);

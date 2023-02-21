@@ -5,4 +5,4 @@ function D_Component() {
   return <div>D_Component</div>;
 }
 
-export default D_Component;
+export default React.memo(D_Component);

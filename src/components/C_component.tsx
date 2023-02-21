@@ -5,8 +5,7 @@ import D_Component from "./D_component";
 function C_Component() {
   const value = useContext(Context);
 
-  console.log("value", value);
-  console.log("component C");
+  console.log("component C", "value", value);
   return (
     <div>
       <div>C_Component</div>
@@ -17,4 +16,4 @@ function C_Component() {
   );
 }
 
-export default C_Component;
+export default React.memo(C_Component);
