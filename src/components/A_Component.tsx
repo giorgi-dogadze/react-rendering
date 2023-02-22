@@ -29,7 +29,7 @@ function A_Component() {
         </button>
         <span>{counter}</span>
 
-        <B_Component />
+        <B_Component counter={{ value: 5 }} />
       </div>
     </ContextProvider>
   );

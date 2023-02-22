@@ -1,7 +1,7 @@
 import React from "react";
 import C_Component from "./C_component";
 
-function B_Component() {
+function B_Component({ counter }: { counter: { value: number } }) {
   console.log("component B");
   return (
     <div>
